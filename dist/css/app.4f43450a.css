@@ -1,0 +1,110 @@
+.searchBar[data-v-15d281a0] {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+.searchBar form[data-v-15d281a0] {
+  position: relative;
+  display: flex;
+}
+.searchBar form input[data-v-15d281a0] {
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+.searchBar form input[data-v-15d281a0]::-moz-placeholder {
+  color: #000;
+}
+.searchBar form input[data-v-15d281a0]:-ms-input-placeholder {
+  color: #000;
+}
+.searchBar form input[data-v-15d281a0]::-ms-input-placeholder {
+  color: #000;
+}
+.searchBar form input[data-v-15d281a0]::placeholder {
+  color: #000;
+}
+.searchBar form button[data-v-15d281a0] {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background: red;
+  transition: background 0.3s ease-in-out;
+}
+.searchBar form button[data-v-15d281a0]:hover {
+  background: #c3112d;
+}
+.searchBar form .msg[data-v-15d281a0] {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+  font-size: 1rem;
+  padding: 10px;
+}
+header[data-v-1646728a] {
+  height: 10vh;
+  background-color: #00f;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .title[data-v-1646728a] {
+  font-size: 2rem;
+  color: #fff;
+}
+main[data-v-67bdc2c1] {
+  width: 100%;
+  height: 100px;
+}
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font: 62.5% sans-serif;
+}
+button {
+  cursor: pointer;
+}
+input {
+  -webkit-appearance: none;
+}
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+::-moz-selection {
+  background-color: #7be67b;
+  color: #fff;
+}
+::selection {
+  background-color: #7be67b;
+  color: #fff;
+}
